@@ -133,5 +133,8 @@
   <ItemGroup>
     <Folder Include="Lib\" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\ratingcalc.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
