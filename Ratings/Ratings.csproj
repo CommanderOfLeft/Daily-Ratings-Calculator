@@ -46,8 +46,9 @@
     <Reference Include="System.Xaml">
       <RequiredTargetFramework>4.0</RequiredTargetFramework>
     </Reference>
-    <Reference Include="The Algorithm">
-      <HintPath>..\..\The Algorithm\The Algorithm\bin\Release\netstandard2.0\The Algorithm.dll</HintPath>
+    <Reference Include="The Algorithm, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Lib\The Algorithm.dll</HintPath>
     </Reference>
     <Reference Include="WindowsBase" />
     <Reference Include="PresentationCore" />
@@ -128,6 +129,9 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\ratheader.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Lib\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
