@@ -2,5 +2,4 @@
 Calculates the official daily ratings.
 <div align="center">
   <img src="Ratings/Images/ratingcalc.png" />
-  <p>Indexes are automatically populated for each project. Multiple conditions can be added.</p>
 </div>
