@@ -69,7 +69,7 @@ namespace Ratings
         {
             currBoard = (sender as Button).Content.ToString();
             boardImage.Source = new BitmapImage(new Uri("/Ratings;component/Images/" + currBoard.Replace("/", string.Empty) + "icon.png", UriKind.Relative));
-            if (currBoard == "4/jp/")
+            if (currBoard == "4/jp/" || currBoard == "/qa/")
             {
                 foreach (Button btn in calcGrid.Children)
                 {
